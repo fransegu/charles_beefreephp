@@ -25,16 +25,16 @@
   "targets": [
     {
       "name": "Development",
-      "remoteURL": "http://localhost:3000/",
-      "access": "local",
+      "remoteURL": "http://localhost:8100",
       "targetType": "wappler",
-      "databaseConnectionType": "sqlite",
-      "sqliteDbFile": "/db/db_dev.sqlite3"
+      "webServerLang": "PHP",
+      "webServerPort": 8100
     }
   ],
   "activeTarget": "Development",
   "useRouting": true,
   "addBase": true,
   "routingHandler": "apache",
-  "projectType": "web"
+  "projectType": "web",
+  "extensions": []
 }

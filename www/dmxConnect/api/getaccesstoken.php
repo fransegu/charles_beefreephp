@@ -20,8 +20,8 @@ $app->define(<<<'JSON'
       "dataType": "json",
       "passErrors": false,
       "data": {
-        "client_id": "1",
-        "client_secret": "2",
+        "client_id": "a785b377-7a6c-4b11-80c9-6546733fc186",
+        "client_secret": "hElITunwgHNVfLW64mfUahjzpa3oS4exCyal2kFyPuIZUQnp1Tnj",
         "uid": "demo-user-123"
       }
     },
